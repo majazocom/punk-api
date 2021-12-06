@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P U N K - A P I</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>
+        <button id="random">Random Beer</button>
+        <h1>Sök på öl</h1>
+        <section class="search-area">
+            <div class="select">
+                <select id="param">
+            <option id="name" value="beer_name">Name</option>
+            <option value="abv_gt">Percentage</option>
+            <option value="hops">Hops</option>
+            <option value="food">Food</option>
+        </select></div>
+            <input type="text" id="search-input">
+        </section>
+        <ul id="found-beers-list"></ul>
+        <article id="found-beer"></article>
+        <input type="button" value="Nästa sida" id="next-page">
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
